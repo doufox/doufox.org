@@ -26,7 +26,8 @@ module.exports = {
                     { text: '模板标签使用说明', link: '/template/tags' },
                     { text: '自定义字段', link: '/fields' },
                 ]
-            }
+            },
+            { text: '声明', link: '/legal' }
         ],
         repo: 'Doufox/doufox',
         repoLabel: '查看源码',
