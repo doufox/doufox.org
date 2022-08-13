@@ -14,20 +14,28 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
-            { text: '安装', link: '/install' },
             {
                 text: '使用手册',
                 ariaLabel: '使用手册',
                 items: [
-                    { text: '目录树结构', link: '/path_tree' },
+                    { text: '项目结构', link: '/path_tree' },
+                    { text: '系统安装', link: '/install' },
                     { text: '路由', link: '/router' },
                     { text: '插件', link: '/plugin' },
-                    { text: '模板配置文件说明', link: '/template/config' },
-                    { text: '模板标签使用说明', link: '/template/tags' },
+                    { text: '模板配置文件', link: '/template/config' },
+                    { text: '模板标签', link: '/template/tags' },
                     { text: '自定义字段', link: '/fields' },
+                    { text: '伪静态规则', link: '/rewrite' }
                 ]
             },
-            { text: '声明', link: '/legal' }
+            {
+                text: '了解更多',
+                ariaLabel: '了解更多',
+                items: [
+                    { text: '使用条款', link: '/legal' },
+                    { text: '官方网站', link: 'http://doufox.com' }
+                ]
+            }
         ],
         repo: 'Doufox/doufox',
         repoLabel: '查看源码',
